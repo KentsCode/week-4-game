@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	background-image: url(glassyMarble.jpg);
+	margin-right: 0;
 }
 @font-face {
 	font-family: AugustusBeveled;
@@ -15,6 +16,7 @@ h1 {
 	color: #e1b5e6;
 	background-color: #6E4476;
 	margin-top: 0;
+	margin-right: 0;
 	margin-bottom: 50px;
 }
 .middleArea {

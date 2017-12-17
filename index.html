@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> 
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		
+
 
 </head>
 
@@ -20,19 +20,19 @@
 	</div>
 
 	<div class="middleArea row">
-		<div class="paragraphSection col-md-4 col-md-offset-1">
+		<div class="paragraphSection col-md-5 col-md-offset-1">
 			<p>You will be given a number at the start of the game.</p>
 				<br>
 			<p>There are four crystals in the game area to the right. By clicking on a crystal you will add a specific amount of points to your total score.</p>
 				<br>
 			<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
 				<br>
-			<p>The value of each crystal is hidden from you unitl click on it.</p>
+			<p>The value of each crystal is hidden from you until click on it.</p>
 				<br>
 			<p>Each time the game starts, the game will change the value of each crystal.</p>
 		</div>
 
-		<div class="gameArea col-md-4" id="gameArea1">
+		<div class="gameArea col-md-5" id="gameArea1">
 			<div class="randomNumberArea">
 				<h2>Score to match:</h2>
 				<h2 id="numberToMatch">0</h2>
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 
-		<div class="gameArea col-md-4" id="gameArea2">
+		<div class="gameArea col-md-5" id="gameArea2">
 			<div id="textWins">
 				<h2>Wins:</h2>
 				<h2 id="wins">0</h2>
@@ -113,7 +113,7 @@
 	function reset(){
 		yourPoints = 0;
 		$('#yourScore').text(yourPoints);
-		var numberToMatch = Math.floor(Math.random() * 101 + 19);
+		numberToMatch = Math.floor(Math.random() * 101 + 19);
 		$('#numberToMatch').text(numberToMatch);
 		
 		var greenCrystalNumber = Math.floor(Math.random() * 11 + 1);
