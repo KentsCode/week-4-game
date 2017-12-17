@@ -1,0 +1,66 @@
+body {
+	text-align: center;
+	background-image: url(glassyMarble.jpg);
+}
+@font-face {
+	font-family: AugustusBeveled;
+	src: url(AugustusBeveled.otf);
+}
+h1 {
+	font-size: 65px;
+	font-family: AugustusBeveled;
+	border-style: double;
+	border-width: 12px;
+	border-color: #e1b5e6;
+	color: #e1b5e6;
+	background-color: #6E4476;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+.middleArea {
+	
+}
+h2 {
+	font-family: AugustusBeveled;
+	font-size: 35px;
+	color: #80E269;
+
+}
+@font-face {
+	font-family: middleEarth;
+	src: url(middleEarth.ttf);
+}
+.paragraphSection {
+	font-size: 20px;
+	font-family: middleEarth;
+	padding: 0px;
+	color: #80E269;
+	border-style: double;
+	border-width: 12px;
+	border-color: #80E269;
+	background-color: #4E6F68;
+	margin-right: 50px;
+	padding-bottom: 75px;
+}
+p {
+	margin-top: 20px;
+	padding-left: 20px; 
+	padding-right: 20px;
+}
+.gameArea {
+	margin-left: 50px;
+	border-style: double;
+	border-width: 12px;
+	border-color: #80E269;
+	background-color: #4E6F68;
+
+}
+#gameArea1 {
+	padding-bottom: 40px;
+}
+#gameArea2 {
+}
+br {
+	margin: 0px;
+	padding: 0px;
+}
