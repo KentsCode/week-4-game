@@ -1,7 +1,6 @@
 body {
 	text-align: center;
 	background-image: url(glassyMarble.jpg);
-	margin-right: 0;
 }
 @font-face {
 	font-family: AugustusBeveled;
@@ -16,7 +15,6 @@ h1 {
 	color: #e1b5e6;
 	background-color: #6E4476;
 	margin-top: 0;
-	margin-right: 0;
 	margin-bottom: 50px;
 }
 .middleArea {
@@ -42,7 +40,7 @@ h2 {
 	border-color: #80E269;
 	background-color: #4E6F68;
 	margin-right: 50px;
-	padding-bottom: 75px;
+	padding-bottom: 125px;
 }
 p {
 	margin-top: 20px;
